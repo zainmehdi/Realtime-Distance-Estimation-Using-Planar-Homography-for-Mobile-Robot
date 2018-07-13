@@ -1,2 +1,2 @@
-# Realtime-Distance-Estimation-Using-Inverse-Perspective-Mapping-for-Mobile-Robots
+# Realtime-Distance-Estimation-Using-Homography-for-Mobile-Robots
 This package is a demonstration of using "Planar Homography" to estimate the real word distance of a planar object (in my case the ground floor) from mobile robot equipped with camera. We make use of homography matrix H to transform points from Image plane to the world plane using that is estimated using a calibration pattern. Once Homography matrix H is calculated we can use it to calculate distance of any point on the ground floor just by pointing at it using a mouse.
